@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>View</h1>
+        <% all.map((val)=>{ %>
+            <tr>
+                <td><%= val.id %></td>
+                <td><%= val.name %></td>
+                <td><%= val.phone %></td>
+            </tr>
+        <% }) %>
+    </center>
+</body>
+</html>
